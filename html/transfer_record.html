@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <meta name="format-detection" content="telphone=no, email=no">
+    <!-- 禁止页面缓存 -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>转账</title>
+    <script src="../js/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css?v1">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/transfer_record.css">
+    <link rel="stylesheet" href="../css/layer.css">
+</head>
+
+<body>
+    <div class="select-shade"></div>
+    <div class="transfer-record">
+        <!-- top -->
+        <div class="trs-record-top">
+            <div class="top-select-keywords">
+                <p class="select-kw clearfix"><span class="selected-keyword">全部</span><i></i></p>
+                <ul class="kw-list">
+                    <li>BTC</li>
+                    <li>ETH</li>
+                    <li>BNB</li>
+                    <li>EOS</li>
+                </ul>
+            </div>
+            <div class="top-balance">
+                <div>
+                    <p>账户总余额</p>
+                    <p class="clearfix"><i>￥</i><span>0.00</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="trs-record-main">
+            <div class="main-tablist clearfix">
+                <p class="tab-selected">全部</p>
+                <p>转出</p>
+                <p>转入</p>
+            </div>
+            <div class="main-content">
+                <ul class="main-content-list">
+                    <li>
+                        <div class="clearfix">
+                            <p class="list-item-left"></p>
+                            <div class="list-item-right">
+                                <p class="item-transfer clearfix">
+                                  <span class="item-transfer-address">00aage...23gg</span>
+                                  <span class="item-transfer-amount"><i class="single-amount">+0.005</i><i class="coin-kind">btc</i></span>
+                                </p>
+                                <p class="item-msg clearfix">
+                                  <span class="item-msg-time">0秒前</span>
+                                  <span class="item-msg-tip">等待打包</span>
+                                </p>
+                                <div class="progress-line"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clearfix">
+                            <p class="list-item-left"></p>
+                            <div class="list-item-right">
+                                <p class="item-transfer clearfix">
+                                  <span class="item-transfer-address">00aage...23gg</span>
+                                  <span class="item-transfer-amount"><i class="single-amount">+0.005</i><i class="coin-kind">btc</i></span>
+                                </p>
+                                <p class="item-msg clearfix">
+                                  <span class="item-msg-time">0秒前</span>
+                                  <span class="item-msg-tip">等待打包</span>
+                                </p>
+                                <div class="progress-line"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clearfix">
+                            <p class="list-item-left"></p>
+                            <div class="list-item-right">
+                                <p class="item-transfer clearfix">
+                                  <span class="item-transfer-address">00aage...23gg</span>
+                                  <span class="item-transfer-amount"><i class="single-amount">+0.005</i><i class="coin-kind">btc</i></span>
+                                </p>
+                                <p class="item-msg clearfix">
+                                  <span class="item-msg-time">0秒前</span>
+                                  <span class="item-msg-tip">等待打包</span>
+                                </p>
+                                <div class="progress-line"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer"></div>
+    </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/cookies.js"></script>
+<script src="../js/sha1.js"></script>
+<script src="../js/make_sign.js"></script>
+<script src="../js/transfer_record.js"></script>
+
+</html>

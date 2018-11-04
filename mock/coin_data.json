@@ -1,0 +1,50 @@
+{
+  "dgt_coin": [
+    {
+      "coin": "BTC",
+      "num": "0.8",
+      "subset": 5,
+      "rate": ""
+    },
+    {
+      "coin": "ETH",
+      "num": "0.8",
+      "subset": 3,
+      "rate": ""
+    },
+    {
+      "coin": "EOS",
+      "num": "0.8",
+      "subset": 2,
+      "rate": ""
+    },
+    {
+      "coin": "BNB",
+      "num": "0.8",
+      "subset": 4,
+      "rate": ""
+    }
+  ],
+  "leg_coin": [
+    {
+      "coin": "XAU",
+      "num": "0.8",
+      "rate": ""
+    },
+    {
+      "coin": "USD",
+      "num": "0.8",
+      "rate": ""
+    },
+    {
+      "coin": "EUR",
+      "num": "0.8",
+      "rate": ""
+    },
+    {
+      "coin": "CNY",
+      "num": "0.8",
+      "rate": ""
+    }
+  ]
+}

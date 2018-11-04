@@ -1,0 +1,196 @@
+html {
+  height: 100%;
+  background:linear-gradient(0deg,rgba(36,48,70,1),rgba(34,45,63,1));
+}
+
+body {
+   width: 100%;
+   height: auto;
+   padding-bottom: .706667rem;
+   background:linear-gradient(0deg,rgba(36,48,70,1),rgba(34,45,63,1));
+}
+
+.wallet-detail {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+/* top */
+.dtl-top {
+  width: 94%;
+  margin: .266667rem auto 0;
+}
+
+.back-index {
+  float: left;
+  width: .6rem;
+  height: .586667rem;
+  background: url('../images/back_index.png') 0 0 no-repeat;
+  background-size: .32rem .586667rem;
+  border-radius: 100%;
+}
+
+.back-highlight {
+  -webkit-appearance: none;
+  box-shadow: 0 0 .8rem .133333rem #fff !important;
+  -webkit-box-shadow: 0 0 .8rem .133333rem #fff !important;
+  background-color: rgba(255,255,255,0.58) !important;
+}
+
+.wallet-switch {
+  float: right;
+  width: 1.173333rem;
+  height: .693333rem;
+  background: url('../images/wallet_switch.png') 0 0 no-repeat;
+  background-size: 1.173333rem .693333rem;
+}
+
+/* main */
+.main {
+  width: 94.1%;
+  margin: 1.333333rem auto 0;
+}
+
+.coin-info {
+  width: 100%;
+  color: #fff;
+}
+
+.coin-info .balance {
+  float: left;
+  height: 1.333333rem;
+}
+
+.balance p:nth-child(1){
+  display: flex;
+  margin-bottom: .266667rem;
+}
+
+.balance p:nth-child(1)>span {
+  display: inline-block;
+  margin: auto;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.balance p:nth-child(1)>b {
+  font-size: .693333rem;
+  font-weight: bold;
+  margin-left: .266667rem;
+  text-align: left;
+}
+
+.balance p:nth-child(2) {
+  padding-left: .586667rem;
+}
+
+.balance p:nth-child(2)>i {
+  margin-right:.266667rem; 
+}
+ 
+.balance p:nth-child(2)>i,
+.balance p:nth-child(2)>em {
+  font-size: .4rem;
+}
+
+.coin-info .export-privkey {
+  float: right;
+  height: 1.333333rem;
+}
+
+.export-privkey p:nth-child(1) {
+  width: .64rem;
+  height: .586667rem;
+  background: url('../images/export_privKey.png') 0 0 no-repeat;
+  background-size: .64rem .586667rem;
+  margin-bottom: .346667rem;
+  margin-left: .32rem;
+}
+
+.export-privkey p:nth-child(2) {
+  font-weight: 400;
+  letter-spacing: .026667rem;
+}
+
+/* qrcode */
+.code-addr {
+  width: 8.48rem;
+  height: 10.213333rem;
+  margin: .933333rem auto 0;
+  background: url('../images/code_bg.png') 0 0 no-repeat;
+  background-size: 8.48rem 10.213333rem;
+  overflow: hidden;
+}
+
+.qrcode {
+  width: 4.533333rem;
+  height: 4.506667rem;
+  margin: 1.226667rem auto 1.306667rem;
+}
+
+.qrcode img {
+  width: 4.533333rem;
+  height: 4.506667rem;
+}
+
+.addr {
+  width: 100%;
+  padding-top: .666667rem;
+}
+
+.addr p {
+  width: 100%;
+}
+
+.addr .addr-title {
+  color: #333333;
+  font-size: .453333rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.addr .addr-tip {
+  text-align: center;
+  color: red;
+  font-size: .266667rem;
+  transform: scale(0.8);
+  padding: .133333rem 0 .08rem;
+  letter-spacing: .026667rem;
+  line-height: .4rem;
+  font-family: Arial;
+}
+
+.address {
+  display:block;
+  width: 100%;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  background: #fff;
+  color: #999999;
+  font-size: .346667rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.copy-addr {
+  width: 8.48rem;
+  height: 1.44rem;
+  margin: .533333rem auto 0;
+  border-radius: .266667rem;
+  background:linear-gradient(90deg,rgba(64,26,247,1),rgba(237,109,72,1));
+}
+
+.copy {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: .48rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.44rem;
+  letter-spacing: .053333rem;
+}

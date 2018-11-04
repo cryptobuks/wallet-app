@@ -1,0 +1,42 @@
+.layer-main {
+   position: fixed;
+   top: 50%;
+   left:0;
+   /* margin-left: -1.333333rem; */
+   margin-top: -0.666667rem;
+   width: auto;
+   height: 1.333333rem;
+   line-height: 1.333333rem;
+   background-color: rgba(0, 0, 0, 0);
+   text-align: center;
+   color: #fff;
+   border-radius: .266667rem;
+   font-size: .373333rem;
+   font-family: Arial;
+   transition: all 1s ease;
+   padding: 0 .4rem;
+} 
+
+.loading-pic {
+  width: 100%;
+  height: 100%;
+  background:rgba(255,255,255,0.95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.loading-pic img {
+  width: .533333rem;
+  height: .533333rem;
+  position: fixed;
+  top: 50%;
+  left:50%;
+  margin-top: -0.266667rem;
+  margin-left: -0.266667rem;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+  <title>转账</title>
+  <script src="../js/flexible.js"></script>
+  <link rel="stylesheet" href="../css//reset.css">
+  <link rel="stylesheet" href="../css/layer.css">
+  <link rel="stylesheet" href="../css/mobileSelect.css">
+  <link rel="stylesheet" href="../css/transfer.css">
+</head>
+
+<body>
+  <div class="transfer">
+    <div class="trs-top">
+      <div class="trs-top-header clearfix">
+        <p class="back-index"></p>
+        <p class="trans-note"></p>
+      </div>
+      <div class="trs-coin">
+        <p class="coin-balance">钱包余额 ：</p>
+        <p class="coin-kind"><i></i><span></span></p>
+        <p class="coin-address opt_ft"></p>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main-transfer-sum">
+        <p>转账金额 ：</p>
+        <div class="clearfix">
+          <input type="text" class="transfer-amount">
+          <i></i>
+          <span class="transfer-coin"></span>
+        </div>
+      </div>
+      <div class="main-transfer-address">
+        <p>收款方地址 ：</p>
+        <input type="text" class="transfer-to-address">
+      </div>
+      <!-- <div class="main-transfer-time">
+        <p>预约时间（选填项） ：</p>
+        <ul class="main-transfer-time-choose" id="time-area">
+          <li class="clearfix">
+            <div>
+              <span class="transfer-time-y">--</span>
+              <i>年</i>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div>
+              <span class="transfer-time-M">--</span>
+              <i>月</i>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div>
+              <span class="transfer-time-d">--</span>
+              <i>日</i>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div>
+              <span class="transfer-time-h">--</span>
+              <i>时</i>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div>
+              <span class="transfer-time-m">--</span>
+              <i>分</i>
+            </div>
+          </li>
+        </ul>
+      </div> -->
+      <div class="main-transfer-poundage">
+        <p>交易手续费 ：</p>
+        <div class="clearfix">
+          <input type="text" class="poundage-input" value="">
+          <i></i>
+          <span class="transfer-coin"></span>
+        </div>
+        <!-- <div class="poundage-progress">
+          <p id="progress-fill"></p>
+          <p id="progress-slider"></p>
+        </div> -->
+      </div>
+      <div class="main-transfer-next">
+         <p class="next-btn">
+           <span>下一步</span>
+           <i></i>
+         </p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/sha1.js"></script>
+<script src="../js/cookies.js"></script>
+<script src="../js/make_sign.js"></script>
+<script src="../js/utils.js"></script>
+<script src="../js/mobileSelect.js"></script>
+<script src="../js/dragBar.js"></script>
+<script src="../js/transfer.js"></script>
+
+</html>

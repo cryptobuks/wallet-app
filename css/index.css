@@ -1,0 +1,494 @@
+body {
+  height: auto;
+  background: #010141;
+}
+
+#app {
+  width: 100%;
+  height: auto;
+}
+
+/* header */
+.header {
+  width: 94%;
+  height: 4rem;
+  margin: 0 auto;
+}
+
+.header .header-top {
+  width: 100%;
+  height: 1.333333rem;
+  line-height: 1.333333rem;
+  position: relative;
+}
+
+.header-pic {
+  float: left;
+}
+
+.header-pic img {
+  width: 1.08rem;
+  height: 1.08rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.dialog-btn {
+  float: right;
+  width: .733333rem;
+  height: .586667rem;
+  background: url("../images/dialog_btn.png") 0 0 no-repeat;
+  background-size: .733333rem .586667rem;
+  background-position: 0 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.total {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+}
+
+.total div {
+  margin: auto;
+}
+
+.total div p {
+  color: #fff;
+}
+
+.total div p:nth-child(1) {
+  padding-left: .8rem;
+  padding-bottom: .266667rem;
+}
+
+.total div p:nth-child(1) span {
+  font-size: .373333rem;
+}
+
+.total div p:nth-child(2) span:nth-child(1) {
+  float: left;
+  font-size: .533333rem;
+  padding-right: .186667rem;
+}
+
+.total div p:nth-child(2) span:nth-child(2) {
+  font-size: .933333rem;
+}
+
+/* main */
+.main {
+  width: 100%;
+  padding-top: .533333rem;
+  padding-bottom: 1.6rem;
+}
+
+.content {
+  width: 93.5%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+/* digital-coin */
+.digital-coin>p i {
+  float: left;
+  width: .426667rem;
+  height: .933333rem;
+  background: url("../images/coin_asset.png") 0 0 no-repeat;
+  background-size: .426667rem .426667rem;
+  background-position: 0 10px;
+  margin-right: .266667rem;
+}
+
+.digital-coin>p span {
+  float: left;
+  height: .933333rem;
+  line-height: .933333rem;
+  font-size: .426667rem;
+  font-weight: lighter;
+}
+
+.coin-info {
+  width: 100%;
+  margin-top: .213333rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.coin-info>li {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: .266667rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.coin-info>li:nth-child(1) {
+  background: linear-gradient(248deg,
+    rgba(255, 177, 43, 1),
+    rgba(255, 97, 59, 1));
+}
+
+.coin-info>li:nth-child(1) .asset-info .info-left i {
+  background: url("../images/BTC.png") 0 0 no-repeat;
+  background-size: .866667rem .866667rem;
+  background-position: 0 .093333rem;
+}
+
+.coin-info>li:nth-child(2) {
+  background: linear-gradient(248deg,
+    rgba(8, 181, 255, 1),
+    rgba(75, 111, 255, 1));
+}
+
+.coin-info>li:nth-child(2) .asset-info .info-left i {
+  background: url("../images/ETH.png") 0 0 no-repeat;
+  background-size: .866667rem .866667rem;
+  background-position: 0 .093333rem;
+}
+
+.coin-info>li:nth-child(3) {
+  background: linear-gradient(248deg,
+    rgba(150, 24, 255, 1),
+    rgba(70, 146, 243, 1));
+}
+
+.coin-info>li:nth-child(3) .asset-info .info-left i {
+  background: url("../images/EOS.png") 0 0 no-repeat;
+  background-size: .866667rem .866667rem;
+  background-position: 0 .093333rem;
+}
+
+.coin-info>li:nth-child(4) {
+  background: linear-gradient(248deg,
+    rgba(0, 236, 212, 1),
+    rgba(1, 153, 251, 1));
+}
+
+.coin-info>li:nth-child(4) .asset-info .info-left i {
+  background: url("../images/BNB.png") 0 0 no-repeat;
+  background-size: .866667rem .866667rem;
+  background-position: 0 .093333rem;
+}
+
+.asset-info {
+  width: 91.5%;
+  height: 1.546667rem;
+  margin: 0 auto;
+}
+
+.asset-info .info-left {
+  float: left;
+  height: 1.546667rem;
+  line-height: 1.546667rem;
+  display: flex;
+}
+
+.asset-info .info-left i {
+  display: inline-block;
+  width: .866667rem;
+  height: .866667rem;
+  margin: auto;
+  padding-right: .24rem;
+}
+
+.asset-info .info-left span:nth-child(2) {
+  font-size: .426667rem;
+  padding-right: .533333rem;
+}
+
+.asset-info .info-left span:nth-child(3) {
+  padding-right: .08rem;
+}
+
+.asset-info .info-left span:nth-child(3),
+.asset-info .info-left span:nth-child(4) {
+  font-size: .373333rem;
+  font-weight: lighter;
+}
+
+.asset-info .info-left span:nth-child(4) b {
+  font-size: .373333rem;
+  font-weight: lighter;
+}
+
+.asset-info .info-right {
+  float: right;
+  height: 1.546667rem;
+  line-height: 1.546667rem;
+  display: flex;
+}
+
+.asset-info .info-right b {
+  display: inline-block;
+  width: .026667rem;
+  height: .533333rem;
+  background: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  margin-right: .266667rem;
+}
+
+.asset-info .info-right i {
+  display: inline-block;
+  width: .32rem;
+  height: .293333rem;
+  margin: auto;
+  padding-right: .253333rem;
+  background: url("../images/subset.png") 0 0 no-repeat;
+  background-size: .32rem .293333rem;
+}
+
+.subset-ads {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  background: linear-gradient(153deg, rgba(12, 38, 136, 0.5) 0%, rgba(1, 1, 65, 0.8) 70%);
+}
+
+.ads-con {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.ads-con>li {
+  width: 100%;
+  height: 1.2rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.ads-con>li:nth-last-child(1) .ads-info{
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.ads-info {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: left 0.5s ease;
+}
+
+.dgt-cn>li:nth-child(1) .ads-con .ads-info {
+  background: linear-gradient(248deg,#31233c,#75455f);
+}
+
+.dgt-cn>li:nth-child(2) .ads-con .ads-info {
+  background: linear-gradient(248deg,#0e2346,#2b43ad);
+}
+
+.dgt-cn>li:nth-child(3) .ads-con .ads-info {
+  background: linear-gradient(248deg,#190b62,#3350ae);
+}
+
+.dgt-cn>li:nth-child(4) .ads-con .ads-info {
+  background: linear-gradient(248deg,#112d5c,#275ab3);
+}
+
+.ads-info>div {
+  width: 91.5%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.transfer {
+  width: 50%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: Arial;
+  background: #010141;
+}
+
+.ads-info .ads-left {
+  float: left;
+  height: 100%;
+  display: flex;
+  margin-left: .266667rem;
+}
+
+.ads-left span {
+  font-size: .4rem;
+  font-weight: lighter;
+  display: inline-block;
+  height: .56rem;
+  line-height: .56rem;
+  margin: auto;
+}
+
+.ads-info .ads-right {
+  float: right;
+  height: 100%;
+}
+
+.ads-right span {
+  font-size: .373333rem;
+  display: inline-block;
+  height: .533333rem;
+  line-height: .533333rem;
+}
+
+.ads-right .ads-right-num {
+  padding-right: .08rem;
+}
+
+.ads-right .ads-right-cny b {
+  font-weight: lighter;
+}
+
+/* legal-coin */
+.legal-coin p i {
+  float: left;
+  width: .426667rem;
+  height: .933333rem;
+  background: url("../images/coin_asset.png") 0 0 no-repeat;
+  background-size: .426667rem .4rem;
+  background-position: 0 10px;
+  margin-right: .266667rem;
+}
+
+.legal-coin p span {
+  float: left;
+  height: .933333rem;
+  line-height: .933333rem;
+  font-size: .426667rem;
+  font-weight: lighter;
+}
+
+.legal-coin ul {
+  width: 100%;
+  margin-top: .213333rem;
+}
+
+.legal-coin ul li {
+  float: left;
+  width: 4.493333rem;
+  height: 1.2rem;
+  border-radius: .266667rem;
+}
+
+.legal-coin ul li:nth-child(1) {
+  background: linear-gradient(248deg, rgba(255, 177, 43, 1), rgba(255, 97, 59, 1));
+  margin: 0 .333333rem .266667rem 0;
+}
+
+.legal-coin ul li:nth-child(1) .legal-info div i {
+  background: url('../images/XAU.png') 0 0 no-repeat;
+  background-size: .666667rem .666667rem;
+  background-position: -0.106667rem .16rem;
+}
+
+.legal-coin ul li:nth-child(2) {
+  background: linear-gradient(248deg, rgba(8, 181, 255, 1), rgba(75, 111, 255, 1));
+  margin: 0 0 .266667rem 0;
+}
+
+.legal-coin ul li:nth-child(2) .legal-info div i {
+  background: url('../images/USD.png') 0 0 no-repeat;
+  background-size: .666667rem .666667rem;
+  background-position: -0.106667rem .16rem;
+}
+
+.legal-coin ul li:nth-child(3) {
+  background: linear-gradient(248deg, rgba(150, 24, 255, 1), rgba(70, 146, 243, 1));
+  margin: 0 .333333rem 0 0;
+}
+
+.legal-coin ul li:nth-child(3) .legal-info div i {
+  background: url('../images/EUR.png') 0 0 no-repeat;
+  background-size: .666667rem .666667rem;
+  background-position: -0.106667rem .16rem;
+}
+
+.legal-coin ul li:nth-child(4) {
+  background: linear-gradient(248deg, rgba(0, 236, 212, 1), rgba(1, 153, 251, 1));
+}
+
+.legal-coin ul li:nth-child(4) .legal-info div i {
+  background: url('../images/CNY.png') 0 0 no-repeat;
+  background-size: .666667rem .666667rem;
+  background-position: -0.106667rem .16rem;
+}
+
+.legal-info {
+  width: 100%;
+  height: 1.2rem;
+}
+
+.legal-info div {
+  width: 96%;
+  display: flex;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  margin: 0 auto;
+}
+
+.legal-info div i {
+  display: inline-block;
+  width: .666667rem;
+  height: .866667rem;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.legal-info div span:nth-child(2) {
+  font-size: .426667rem;
+  padding-right: .266667rem;
+}
+
+.legal-info div span:nth-child(3) {
+  padding-right: .08rem;
+}
+
+.legal-info div span:nth-child(3),
+.legal-info div span:nth-child(4) {
+  /* font-size: .373333rem; */
+  font-weight: lighter;
+  line-height: 1.253333rem;
+}
+
+.legal-info div span:nth-child(4) b {
+  font-weight: lighter;
+}
+
+.coin-info>li .info-left span,
+.legal-coin ul li .legal-info div span {
+  font-family: Arial;
+}
+
+.ads-info .ads-left span,
+.ads-info .ads-right span {
+  font-family: Arial;
+}
+
+/* web font */
+@font-face {
+  font-family: "opt_ft";
+  src: url("./down.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.opt_ft {
+  font-family: "opt_ft", Arial !important;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.hide {
+  display: none;
+}

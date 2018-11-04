@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <meta name="format-detection" content="telphone=no, email=no">
+    <title>找回密码</title>
+    <script src="../js/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css?v1">
+    <link rel="stylesheet" href="../css/forgot_passw.css">
+    <link rel="stylesheet" href="../css/layer.css">
+</head>
+<body>
+    <div class="forgot_passw">
+       <p class="to-back"></p>
+       <div class="main">
+           <p class="forgot-title">找回密码</p>
+           <div class="content">
+              <div class="forgot-info">
+                  <p><span class="phone-num-area"><b>+</b><b class="area-num"></b><em></em></span><input class="phone-num-input" type="text" placeholder="请输入手机号" maxlength="11"></p>
+                  <p class="passw"><i></i><input class="passw-input" type="password" placeholder="请输入密码 (6-18位数字、字母)" maxlength="18"></p>
+                  <p class="conf-passw"><i></i><input class="conf-passw-input" type="password" placeholder="请确认密码" maxlength="18"></p>
+                  <p class="forgot-code"><i></i><input class="forgot-code-input" type="text" placeholder="请输入验证码" maxlength="4"><span class="code-status get-code">获取验证码</span></p>
+              </div>
+              <div class="forgot-outer">
+                 <p class="forgot-btn">确定</p>
+              </div>
+           </div>
+       </div>
+    </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/sha1.js"></script>
+<script src="../js/cookies.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/make_sign.js"></script>
+<script src="../js/forgot_passw.js"></script>
+</html>

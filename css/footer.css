@@ -1,0 +1,96 @@
+body {
+  position: relative;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background: rgba(50, 50, 84, 1);
+  box-shadow: 4px 0px 0px rgba(28, 28, 48, 0.22);
+  position: fixed;
+  bottom: 0;
+}
+
+.footer ul {
+  width: 74%;
+  height: 1.306667rem;
+  margin: 0 auto;
+}
+
+.footer ul li {
+  float: left;
+  height: 1.306667rem;
+  padding-right: 2.666667rem;
+}
+
+.footer ul li a {
+  display: block;
+  height: 1.306667rem;
+  color: #fff; 
+}  
+
+.footer ul li a:active {
+  background-color: rgba(50, 50, 84, 1);
+}
+
+.footer ul li:nth-last-child(1) {
+  padding-right: 0;
+}
+
+.footer ul li div {
+  width: .666667rem;
+  font-size: .24rem;
+  padding-top: .133333rem;
+}
+
+.footer ul li div p {
+  width: .666667rem;
+}
+
+.footer ul li div p:nth-child(1) {
+  height: .586667rem;
+}
+
+.footer ul li div p:nth-child(2) {
+  height: .533333rem;
+  line-height: .613333rem;
+}
+
+.footer ul li div p:nth-child(2) span {
+  display: inline-block;
+  width: .8rem;
+  /* transform: scale(0.8); */
+  font-weight: lighter;
+  letter-spacing: .026667rem;
+  padding-left: .066667rem;
+}
+
+.footer ul li:nth-child(1) div .tab-icon {
+  background: url("../images/wallet_unchecked.png") 0 0 no-repeat;
+  background-size: .666667rem .586667rem;
+}
+
+.checked-wallet {
+  background: url("../images/wallet_checked.png") 0 0 no-repeat !important;
+  background-size: .666667rem .586667rem !important;
+}
+
+.footer ul li:nth-child(2) div .tab-icon {
+  background: url("../images/account_unchecked.png") 0 0 no-repeat;
+  background-size: .666667rem .586667rem;
+}
+
+.checked-account {
+  background: url("../images/account_checked.png") 0 0 no-repeat !important;
+  background-size: .666667rem .586667rem !important;
+}
+
+.footer ul li:nth-child(3) div .tab-icon {
+  background: url("../images/market_unchecked.png") 0 0 no-repeat;
+  background-size: .666667rem .586667rem;
+}
+
+.checked-market {
+  background: url("../images/market_checked.png") 0 0 no-repeat !important;
+  background-size: .666667rem .586667rem !important;
+}

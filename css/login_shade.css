@@ -1,0 +1,167 @@
+.login-shade {
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.user-settings {
+  width: 70%;
+  height: 100%;
+  background: #fff;
+  float: left;
+  color: #333;
+}
+
+.hide-core {
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+.user-settings>div {
+  width: 100%;
+  height: 2.666667rem;
+  display: flex;
+}
+
+.user-info {
+  width: 6.36rem;
+  height: 1.333333rem;
+  padding: .666667rem 0;
+  margin: auto;
+  margin-right: 0;
+  border-bottom: 1px solid #9CA6B4;
+  display: flex;
+}
+
+.user-info p {
+  float: left;
+  margin: auto;
+}
+
+.user-pic {
+  position: relative;
+  width: 1.333333rem;
+  height: 1.333333rem;
+  border-radius: 50%;
+  box-shadow: -3px 0 2px rgba(0,0,0,0.5),3px 0 2px rgba(0,0,0,0.5),0 3px 2px rgba(0,0,0,0.5),0 -3px 2px rgba(0,0,0,0.5);
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.user-pic img {
+  width: 1.333333rem;
+  height: 1.333333rem;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+#file {
+  width: 1.333333rem;
+  height: 1.333333rem;
+  border: 0;
+  outline: none;
+  -webkit-appearance: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  opacity: 0;
+  filter: alpha(0);
+}
+
+.user-name {
+  font-size: .48rem;
+  font-family: Arial;
+  font-weight: 400;
+  margin-right: 0 !important;
+  margin-left: .4rem !important;
+}
+
+.user-opt {
+  width:.4rem;
+  height: .453333rem;
+  background: url('../images/user_opt.png') 0 0 no-repeat;
+  background-size: .4rem .453333rem;
+  margin-left: 0 !important;
+}
+
+.user-opt-name {
+  border: none;
+  font-size: .48rem;
+  font-family: Arial;
+  font-weight: 400;
+  width: 2.4rem;
+  background: #fff;
+  outline: none;
+  -webkit-appearance: none;
+  color: black !important;
+  caret-color: #333 !important;
+}
+
+.user-opt-name::placeholder {
+  font-size: .48rem;
+  font-family: Arial;
+  font-weight: 400;
+  color: #333;
+}
+
+.oprate-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.oprate-list ul {
+  width: 6.36rem;
+  height:auto;
+  margin:auto;
+  margin-right: 0;
+  margin-top: .8rem;
+}
+
+.oprate-list ul>li {
+  margin-bottom: .666667rem;
+}
+
+.oprate-list ul>li:nth-last-child(1) {
+  margin-bottom:0;
+}
+
+.opt-item {
+  height: .64rem;
+}
+
+.opt-item i {
+  float: left;
+  width: .64rem;
+  height: .64rem;
+  margin-right: .533333rem;
+}
+
+.opt-item span {
+  float: left;
+  height: .64rem;
+  line-height: .64rem;
+  font-size: .453333rem;
+  color: #333;
+}
+
+.oprate-list ul>li:nth-child(1) div i {
+  background: url('../images/update_passw.png') 0 0 no-repeat;
+  background-size: .64rem .64rem;
+}
+
+.oprate-list ul>li:nth-child(2) div i {
+  background: url('../images/login_out.png') 0 0 no-repeat;
+  background-size: .64rem .64rem;
+}
+
+.oprate-list ul>li:nth-child(3) div i {
+  background: url('../images/clear_cache.png') 0 0 no-repeat;
+  background-size: .64rem .64rem;
+}

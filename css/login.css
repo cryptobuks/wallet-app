@@ -1,0 +1,133 @@
+body {
+  background-color: #fff;
+}
+
+.login {
+   width: 100%;
+   background-color: #fff;
+   overflow: hidden;
+}
+
+.main {
+   width: 100%;
+   margin-top: 2.533333rem;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo p {
+  width: 1.866667rem;
+  height: 2rem;
+  margin: 0 auto;
+  background: url('../images/logo.png') 0 0 no-repeat;
+  background-size: 1.866667rem 2rem;
+}
+
+.content {
+  width: 83.33%;
+  margin: 2.133333rem auto 0;
+}
+
+.content>p {
+  width: 100%;
+  height: .84rem;
+  border-bottom: 1px solid #E6E6E6;
+  display: flex;
+}
+
+.content>p input {
+  border: none;
+  width: 7.066667rem;
+  height: .453333rem;
+  line-height: .453333rem;
+  font-size: .4rem;
+  margin: auto;
+  margin-top: 0;
+  caret-color: #604BF9 !important;
+  padding-top: 0;
+}
+
+.content>p input::placeholder {
+  color: #9A9A9A;
+}
+
+.passw-input {
+  -webkit-text-security:disc !important;
+}
+
+.content>p i {
+  display: inline-block;
+  width: .426667rem;
+  height: .453333rem;
+  background-size: .426667rem .453333rem;
+  margin: auto;
+  margin-top: 0;
+}
+
+.user-name {
+  margin-bottom: .8rem;
+}
+
+.user-name i {
+  background: url('../images/user_0.png') 0 0 no-repeat;
+}
+
+.passw i {
+  background: url('../images/passw_0.png') 0 0 no-repeat;
+}
+
+.more-opt {
+  width: 100%;
+  margin-top: .666667rem;
+  color: #999999;
+  font-size: .4rem;
+}
+
+.more-opt .regist {
+  float: left;
+}
+
+.regist a ,
+.forget-passw a
+{
+  color: #999999;
+}
+
+.regist a:active,.regist a:focus ,
+.forget-passw a:active,.forget-passw a:focus
+{
+  color: rgb(178,99,249);
+}
+
+
+.more-opt .forget-passw {
+  float: right;
+}
+
+.login-outer {
+  width: 100%;
+  border-radius: .266667rem;
+  margin-top: 1.6rem;
+  background-color: #e6e6e6;
+  color: #999999;
+}
+
+.login-outer .login-btn {
+  width: 100%;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  font-size: .48rem;
+  text-align: center;
+}
+
+.login-hightlight {
+  background: linear-gradient(90deg,rgba(96,75,249,1),rgba(178,99,249,1));
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+

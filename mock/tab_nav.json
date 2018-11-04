@@ -1,0 +1,5 @@
+[
+  { "name": "钱包", "href": "../index.php"},
+  { "name": "转账", "href": "../html/transfer_record.html"},
+  { "name": "行情", "class_name": "market","href": ""}
+]
